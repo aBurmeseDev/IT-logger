@@ -5,6 +5,7 @@ import AddBtn from './Components/layout/AddBtn';
 import AddLogModal from './Components/logs/AddLogModal';
 import EditLogModal from './Components/logs/EditLogModal';
 import AddTechModal from './Components/techs/AddTechModal';
+import TechListModal from './Components/techs/TechListModal';
 
 import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize';
@@ -23,6 +24,7 @@ const App = () => {
         <AddLogModal />
         <EditLogModal />
         <AddTechModal />
+        <TechListModal />
         <Logs />
       </div>
     </Fragment>

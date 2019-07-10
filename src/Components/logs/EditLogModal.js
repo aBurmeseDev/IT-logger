@@ -12,8 +12,8 @@ const EditLogModal = ({ current, updateLog }) => {
   useEffect(() => {
     if (current) {
       setMessage(current.message);
-      setMessage(current.attention);
-      setMessage(current.tech);
+      setAttention(current.attention);
+      setTech(current.tech);
     }
   }, [current]);
 
@@ -21,7 +21,17 @@ const EditLogModal = ({ current, updateLog }) => {
     if (message === '' || tech === '') {
       M.toast({ html: 'Please enter a message and tech' });
     } else {
-      console.log(message, tech, attention);
+      const updatedLog = {
+        id: current.id,
+        message,
+        attention,
+        tech,
+        date: new Date()
+      };
+
+      updateLog(updatedLog);
+      M.toast({ html: `Log Updated By ${tech}` });
+
       // Clear fields
       setMessage('');
       setTech('');

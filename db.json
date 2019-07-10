@@ -13,6 +13,13 @@
       "tech": "James Smith",
       "date": "2019-07-04T06:18:01.144Z",
       "id": 2
+    },
+    {
+      "id": 3,
+      "message": "1120 wireless server down",
+      "attention": true,
+      "tech": "Sam Wilson",
+      "date": "2019-07-10T00:43:21.044Z"
     }
   ],
   "techs": [

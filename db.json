@@ -13,13 +13,6 @@
       "tech": "James Smith",
       "date": "2019-07-04T06:18:01.144Z",
       "id": 2
-    },
-    {
-      "message": "fix hard drive",
-      "attention": false,
-      "tech": "James Smith",
-      "date": "2019-07-10T00:04:10.836Z",
-      "id": 3
     }
   ],
   "techs": [

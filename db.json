@@ -8,11 +8,11 @@
       "id": 1
     },
     {
-      "message": "Changed network card in server 1101",
+      "id": 2,
+      "message": "Changed network card in server 11019",
       "attention": false,
       "tech": "James Smith",
-      "date": "2019-07-04T06:18:01.144Z",
-      "id": 2
+      "date": "2019-07-10T00:44:28.716Z"
     },
     {
       "id": 3,

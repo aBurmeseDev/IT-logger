@@ -1,11 +1,11 @@
 {
   "logs": [
     {
+      "id": 1,
       "message": "Hard drive failed in network 050",
       "attention": true,
-      "tech": "Sam Wilson",
-      "date": "2019-07-04T06:17:02.352Z",
-      "id": 1
+      "tech": "James Smith",
+      "date": "2019-08-01T03:42:14.605Z"
     },
     {
       "id": 2,
